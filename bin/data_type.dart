@@ -1,0 +1,30 @@
+void main() {
+  //Datatype;
+  String name = "Adeola";
+  int age = 12;
+  double gpa = 3.9;
+  bool isMale = false;
+  print(name);
+  print("My name is $name");
+  print(age);
+  print("I n $age years old");
+  print(gpa);
+  print("I have $gpa in English last term");
+  print(isMale);
+  print(name.length);
+  print(name.endsWith("la"));
+  print(name.startsWith("a"));
+  print(name.replaceAll("Ade", "Bad"));
+  print(name.split(" "));
+  print(name.toLowerCase());
+  print(name.toUpperCase());
+  print(name.isEmpty);
+  print(name.substring(1, 5));
+  print(gpa);
+  print(gpa.isNegative);
+  print(gpa.floor());
+  print(gpa.ceil());
+  print(gpa.round());
+  print(gpa.ceil());
+  print(!isMale);
+}
